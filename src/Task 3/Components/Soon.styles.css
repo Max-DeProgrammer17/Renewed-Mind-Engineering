@@ -1,0 +1,11 @@
+
+.soon{
+  background-color: white;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.soon marquee{
+    font-size: 3rem;
+}

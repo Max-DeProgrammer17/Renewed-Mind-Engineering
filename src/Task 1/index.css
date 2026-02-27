@@ -5,12 +5,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+.app1{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background-color: #c4bdb6; */
+   
 }
 
 .container{

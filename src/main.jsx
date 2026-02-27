@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import AppTaskOne from './Task 1/App.jsx';
 import AppTaskTwo from './Task 2/App.jsx';
+import AppTaskThree from './Task 3/App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -9,7 +10,9 @@ createRoot(document.getElementById('root')).render(
     {/* <AppTaskOne /> */}
 
    {/* Task Two */}
-   <AppTaskTwo />
- 
+   {/* <AppTaskTwo /> */}
+
+   {/* //Task Three */}
+   <AppTaskThree />
   </StrictMode>
 )

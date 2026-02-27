@@ -1,4 +1,5 @@
 
+import './index.css'
 export default function AppTaskTwo() {
   const user ={
     username: 'Nicolas Hoffman',
@@ -12,13 +13,16 @@ export default function AppTaskTwo() {
 //  const statusClass = isAdult ?
   return (
 <>
- <div className={`profile-card ${ageStatus}`}>
+<div className="app2">
+  <div className={`profile-card ${ageStatus}`}>
     <img src={user.img} alt={user.username}></img>
     <h2>{user.username}</h2>
     <p>{user.bio}</p>
     <p>Age Status: {ageStatus}</p>
     {isAdult && <p>Access Granted</p>}
  </div>
+</div>
+ 
 </>
   );
 }

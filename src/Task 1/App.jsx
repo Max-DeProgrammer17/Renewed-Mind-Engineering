@@ -4,6 +4,7 @@ import "./index.css"
 export default function AppTaskOne(){
   return(
     <>
+    <div className="app1">
      <div className="container">
       <div className="container__left">
 
@@ -43,6 +44,8 @@ export default function AppTaskOne(){
          </p>
          </div>
       </div>
+     </div>
+
      </div>
     </>
   )
