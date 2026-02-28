@@ -5,7 +5,7 @@ export default function AppTaskTwo() {
     username: 'Nicolas Hoffman',
     age: 25,
     bio: "Marketing Strategist",
-    img: "../pic.jpg"
+    img: "../src/Task 2/pic.jpg"
   }
 
  const isAdult = user.age >= 18;

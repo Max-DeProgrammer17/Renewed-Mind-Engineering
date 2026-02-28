@@ -10,7 +10,7 @@ export default function AppTaskOne(){
 
         <div className="left__cont">
             <br />
-            <center><img src="../pic.jpg" alt="" /></center>
+            <center><img src="../src/Task 1/pic.jpg" alt="" /></center>
             <br />
 
           <center><h1 style={{fontSize: "1.6rem"}}>Nicolas <br />

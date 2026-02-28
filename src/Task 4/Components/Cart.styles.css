@@ -1,0 +1,36 @@
+
+.cart{
+    background-color: white;
+    width: 245px;
+    height: 340px;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+
+
+    margin-left: 20px;
+}
+
+.cart img{
+    width: 235px;
+    height: 200px;
+    border-radius: 0.4rem;
+    padding: 4px 0px;
+}
+
+.cart .names{
+    font-size: 0.9rem;
+    padding: 2px 6.5px;
+}
+
+.cart .price{
+  padding: 2px 6.5px;
+  font-weight: bold;
+  color: orange;
+}
+
+.cart .price > .strike{
+    text-decoration: line-through;
+    font-size: 0.8rem;
+    color: skyblue;
+}

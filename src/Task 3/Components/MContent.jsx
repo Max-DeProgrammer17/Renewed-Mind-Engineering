@@ -24,7 +24,7 @@ export default function MContent() {
   
 
       <div className="content__right">
-         <img src="../pic1.jpg" alt="" />
+         <img src="../src/Task 3/pic1.jpg" alt="" />
          
       </div>
     </div>
