@@ -7,6 +7,7 @@ import AppTaskFour from './Task 4/App.jsx';
 import AppTaskFive from './Task 5/App.jsx';
 import AppTaskSix from './Task 6/App.jsx';
 import AppTaskSeven from './Task 7/App.jsx';
+import AppTaskEight from './Task 8/App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -29,6 +30,10 @@ createRoot(document.getElementById('root')).render(
    {/* <AppTaskSix /> */}
 
    {/* Task Seven */}
-  <AppTaskSeven />
+  {/* <AppTaskSeven /> */}
+
+  {/* Task Eight */}
+  <AppTaskEight />
+
   </StrictMode>
 )
