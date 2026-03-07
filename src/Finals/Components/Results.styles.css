@@ -1,0 +1,14 @@
+
+.results{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.results p{
+    font-size: 1.2rem;
+}
+
+.results h3, .results h4, .results h5{
+    font-size: 2rem;
+    font-weight: 200;
+}
